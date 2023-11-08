@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+body{
+    background-color: dodgerblue;
+    align-items: center;
+    display: flex;
+  justify-content: center;
+}
+
+
+.formulario{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    margin-left: 20px;
+    box-shadow: 0px, 1px, 2px,2px;
+    background-color: white;
+    border-radius: 1rem;
+    width: 55%;
+    height: 150px;
+}
+.eventos{
+    display: flex;
+  justify-content: center;
+}
+.titulo{
+    display: flex;
+  justify-content: center;
+}
+
+.evento{
+    justify-content: right;
+    background-color: azure;
+    width: 70%;
+    height: 30%;
+    box-shadow: 5px,5px,10px;
+    border-radius: 1rem;
+    padding: 10%;
+}
+.agregar .evento{
+     
+     background-color: hotpink;
+}
+
+
+.diasFaltantes{
+
+}
+.texto{
+
+}
+.nombreEvento{
+    display: block;
+    width: 5%;
+    height: 90px;
+    border-radius: 1rem;
+    
+    
+
+}
+
+.eliminar{
+    background-color: green;
+}
+.eliminar:hover{
+    background-color: red;
+}
